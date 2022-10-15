@@ -1,0 +1,667 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container
+{
+    width:100%;
+}
+.nav-list ul li
+{
+    padding:20px 3px;
+}
+.nav-list ul li a
+{
+    font-size: 10px;
+}
+.main-caption h2
+{
+    font-size:73.2px;
+}
+#home
+{
+    background-position: center 0;
+}
+.home-caption h1
+{
+    Font-size: 43.5px;
+}
+.home-caption button
+{
+    margin-top: 45px;
+}
+#about
+{
+    padding: 55px 24px;
+}
+.about-content
+{
+   text-align: center;
+}
+.about-data
+{
+    width:100%;
+    padding-left:0px ;
+    text-align: left;
+}
+.about-text
+{
+    width:100%;
+}
+.about-data
+{
+    width:100%;
+}
+.cont-box
+{
+    width: 50%;
+    padding: 20px 12px;
+}
+.about-facts
+{
+    padding: 15px 0;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.cont-box:nth-child(2)
+{
+    border: none;
+    border-bottom: 1px solid #e0dede;
+}
+.cont-box:first-child
+{
+    border-bottom: 1px solid #e0dede;
+}
+.cont-box  h4
+{
+    font-size: 33.3px;
+}
+#services
+{
+    padding: 55px 0;
+}
+.service1
+{
+    padding-top:0px;
+    width:100%;
+    margin-bottom: 3rem;
+}
+.services-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+} 
+#summary
+{
+    padding: 55px 24px;
+}
+.summary-content
+{
+    flex-wrap: wrap;
+}
+.summary-info
+{
+    width: 100%;
+    padding: 0px 16px;
+}
+.summary-skills
+{
+    flex-direction: column;
+}
+.sum-sk
+{
+    width: 100%;
+    padding: 0;
+}
+.skills-caption p
+{
+    padding-top: 0px;
+}
+.summary-mainskills h2
+{
+   margin-bottom: 20px;
+   padding-left: 0;
+}
+#portfolio
+{
+    padding: 55px 0;
+}
+.port-media
+{
+    width: 100%;   
+}
+.port-main
+{
+    flex-wrap: wrap;
+}
+.port-caption a
+{
+
+    padding: 0 12px;
+}
+#testimonial
+{
+    padding: 55px 0;
+}
+.testimo-main
+{
+    
+flex-wrap: wrap;
+}
+.testimo-media
+{
+    width: 100%;
+    margin: 20px 20px;
+}
+#contact
+{
+    padding: 55px 0;
+}
+.contact-media
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-info
+{
+    width: 100%;
+    text-align: center;
+    order: 1;
+}
+.contact-form
+{
+    width: 100%;
+    padding: 0 20px;
+}
+.contact-input
+{
+    display: block;
+}
+.cont-input
+{
+
+    width:100%;
+    margin-top: 20px;
+}
+.contact-form h2
+{
+    text-align: center;
+}
+.contact-form button
+{
+    margin: auto;
+    margin-top:20px;
+}
+.container6
+{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.fot1 ul
+{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .container
+    {
+        width:100%;
+    }
+    .nav-list ul li
+    {
+        padding:20px 7px;
+    }
+    .nav-list ul li a
+    {
+        font-size: 16px;
+    }
+    .main-caption h2
+    {
+        font-size:73.2px;
+    }
+    #home
+    {
+        background-position: center 0;
+    }
+    .home-caption h1
+    {
+        Font-size: 43.5px;
+    }
+    .home-caption button
+    {
+        margin-top: 45px;
+    }
+    #about
+    {
+        padding: 55px 24px;
+    }
+    .about-content
+    {
+       text-align: center;
+    }
+    .about-data
+    {
+        width:100%;
+        padding-left:0px ;
+        text-align: left;
+    }
+    .about-text
+    {
+        width:100%;
+    }
+    .about-data
+    {
+        width:100%;
+    }
+    .cont-box
+    {
+        width: 25%;
+        padding: 20px 12px;
+    }
+    .about-facts
+    {
+        padding: 15px 0;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+    .cont-box:nth-child(2)
+    {
+        border-right:1px solid #e0dede;
+        border-bottom: none;
+    }
+    .cont-box:first-child
+    {
+        border-bottom: none;
+    }
+    .cont-box  h4
+    {
+        font-size: 33.3px;
+    }
+    #services
+    {
+        padding: 55px 0;
+    }
+    .service1
+    {
+        padding-top:0px;
+        width:50%;
+        margin-bottom: 3rem;
+    }
+    .services-content
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+    } 
+    #summary
+    {
+        padding: 55px 24px;
+    }
+    .summary-content
+    {
+        flex-wrap: wrap;
+    }
+    .summary-info
+    {
+        width: 50%;
+        padding: 0px 16px;
+    }
+    .summary-skills
+    {
+        flex-direction: row;
+    }
+    .sum-sk
+    {
+        width: 50%;
+        padding: 0 20px;
+    }
+    .skills-caption p
+    {
+        padding-top: 0px;
+    }
+    .summary-mainskills h2
+    {
+       margin-bottom: 20px;
+       padding-left: 0;
+    }
+    #portfolio
+    {
+        padding: 55px 0px;
+        padding-bottom: 0;
+    }
+    .port-media
+    {
+        width: 50%;   
+        
+    }
+    .port-media:last-child
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .port-media:last-child .port-box
+    {
+        width: 50%;
+    }
+    .port-media:last-child .port-box:first-child
+    {
+        width: 50%;
+        transform: translatey(-60%);
+    }
+    .port-media:last-child .port-box:last-child
+    {
+        width: 50%;
+        transform: translatey(-40%);
+    }
+    .port-main
+    {
+        flex-wrap: wrap;
+    }
+    .port-caption a
+    {
+    
+        padding: 0 12px;
+    }
+    #testimonial
+    {
+        padding: 55px 0;
+    }
+    .testimo-main
+    {
+        
+    flex-wrap: wrap;
+    }
+    .testimo-media
+    {
+        width: 100%;
+        margin: 20px 20px;
+    }
+    #contact
+    {
+        padding: 55px 0;
+    }
+    .contact-media
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-info
+    {
+        width: 30%;
+        text-align: left;
+        padding-left: 20px;
+       
+    }
+    .contact-form
+    {
+        width: 70%;
+        padding: 0 20px;
+    }
+    .contact-input
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .cont-input
+    {
+        width:100%;
+        margin-top: 20px;
+    }
+    .contact-form h2
+    {
+        text-align: left;
+    }
+    .contact-form button
+    {
+        margin: auto;
+        margin-top:20px;
+    }
+    .container6
+    {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .fot1 ul
+    {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .container
+    {
+        width:100%;
+    }
+    .nav-list ul li
+    {
+        padding:20px 7px;
+    }
+    .nav-list ul li a
+    {
+        font-size: 16px;
+    }
+    .main-caption h2
+    {
+        font-size:73.2px;
+    }
+    #home
+    {
+        background-position: center 0;
+    }
+    .home-caption h1
+    {
+        Font-size: 43.5px;
+    }
+    .home-caption button
+    {
+        margin-top: 45px;
+    }
+    #about
+    {
+        padding: 55px 24px;
+    }
+    .about-content
+    {
+       text-align: center;
+    }
+    .about-data
+    {
+        width:100%;
+        padding-left:0px ;
+        text-align: left;
+    }
+    .about-text
+    {
+        width:100%;
+    }
+    .about-data
+    {
+        width:100%;
+    }
+    .cont-box
+    {
+        width: 25%;
+        padding: 20px 12px;
+    }
+    .about-facts
+    {
+        padding: 15px 0;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+    .cont-box:nth-child(2)
+    {
+        border-right:1px solid #e0dede;
+        border-bottom: none;
+    }
+    .cont-box:first-child
+    {
+        border-bottom: none;
+    }
+    .cont-box  h4
+    {
+        font-size: 33.3px;
+    }
+    #services
+    {
+        padding: 55px 0;
+    }
+    .service1
+    {
+        padding-top:0px;
+        width:50%;
+        margin-bottom: 3rem;
+    }
+    .services-content
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+    } 
+    #summary
+    {
+        padding: 55px 24px;
+    }
+    .summary-content
+    {
+        flex-wrap: wrap;
+    }
+    .summary-info
+    {
+        width: 50%;
+        padding: 0px 16px;
+    }
+    .summary-skills
+    {
+        flex-direction: row;
+    }
+    .sum-sk
+    {
+        width: 50%;
+        padding: 0 20px;
+    }
+    .skills-caption p
+    {
+        padding-top: 0px;
+    }
+    .summary-mainskills h2
+    {
+       margin-bottom: 20px;
+       padding-left: 0;
+    }
+    #portfolio
+    {
+        padding: 55px 0px;
+        padding-bottom: 0;
+    }
+    .port-media
+    {
+        width: 50%;   
+        
+    }
+    .port-media:last-child
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .port-media:last-child .port-box
+    {
+        width: 50%;
+    }
+    .port-media:last-child .port-box:first-child
+    {
+        width: 50%;
+        transform: translatey(-60%);
+    }
+    .port-media:last-child .port-box:last-child
+    {
+        width: 50%;
+        transform: translatey(-40%);
+    }
+    .port-main
+    {
+        flex-wrap: wrap;
+    }
+    .port-caption a
+    {
+    
+        padding: 0 12px;
+    }
+    #testimonial
+    {
+        padding: 55px 0;
+    }
+    .testimo-main
+    {
+        
+    flex-wrap: wrap;
+    }
+    .testimo-media
+    {
+        width: 100%;
+        margin: 20px 20px;
+    }
+    #contact
+    {
+        padding: 55px 0;
+    }
+    .contact-media
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-info
+    {
+        width: 30%;
+        text-align: left;
+        padding-left: 20px;
+       
+    }
+    .contact-form
+    {
+        width: 70%;
+        padding: 0 20px;
+    }
+    .contact-input
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .cont-input
+    {
+        width:100%;
+        margin-top: 20px;
+    }
+    .contact-form h2
+    {
+        text-align: left;
+    }
+    .contact-form button
+    {
+        margin: auto;
+        margin-top:20px;
+    }
+    .container6
+    {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .fot1 ul
+    {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+}

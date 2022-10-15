@@ -1,0 +1,854 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+::selection
+{
+    background-color: #20c997;
+    color: #fff;
+}
+ul,a,li
+{
+    text-decoration: none;
+    list-style: none;
+}
+html
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.container
+{
+    width:70%;
+    margin: auto;
+}
+.main-caption
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.main-caption h2
+{
+    color: #DEE3E4;
+    opacity: 0.4;
+    font-size:136px;
+    text-align: center;
+}
+.main-caption p
+{
+    color: #212529;
+    font-size: 36px;
+    font-weight: 600;
+    position: absolute;
+}
+.line
+{
+    background-color: #20c997;
+    height: 4px;
+    width: 90px;
+    position: absolute;
+    margin-top: 60px;
+}
+/* **************************************************************************************/
+
+/*********************************************** start nav bar***************************/
+nav
+{
+    background-color: #111;
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0; 
+    z-index: 99999999;
+}
+.nav-list
+{
+    width: 70%;
+}
+.nav-logo img
+{
+    padding: 20px;
+}
+
+.nav-list ul 
+{
+    display: flex; 
+}
+.nav-list ul li
+{
+    padding: 20px;
+}
+.nav-list a
+{
+    color: #FFF;
+    transition: all 0.2s ease-in-out;
+}
+.nav-list a:hover
+{
+    color: #20c997;
+}
+/*********************************************** end nav bar***************************/
+
+
+/**************************************** Start Home section ****************************/
+#home
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.home-overlay
+{
+    background-color: rgba(17, 20, 24, 0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.home-caption h2
+{
+    Font-size: 28px;
+    Font-weight: 500;
+    color: #FFF;
+}
+.home-caption h1
+{
+    Font-size: 64px;
+    Font-weight: 600;
+    color: #FFF;
+}
+.home-caption p
+{
+    Font-size: 21px;
+    color: #DEE3E4;
+}
+.home-caption button
+{
+    font-size: 16px;
+    border: 2px solid #20c997;
+    background-color: transparent;
+    border-radius: 800px;
+    padding:13px 42px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.home-caption button:hover 
+{
+    background-color: #20c997;
+}
+.home-caption button:hover a
+{
+    color: #FFF;
+}    
+.home-caption button a
+{
+    color:#20c997;
+    font-weight: 500;
+}
+.scroll-down
+{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -16px;
+    font-size: 20px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    color: #fff;
+}
+.animated
+{
+    position: relative;
+    animation: scrolldown 1.5s infinite;
+}
+@keyframes scrolldown
+{
+    0%{
+        top: -25px;
+        opacity: 0;
+    }
+    100%{
+        top: 10px;
+        opacity: 1;
+    }
+}
+/**************************************** End head section *******************/
+
+
+
+/**************************************** start about section *******************/
+#about
+{
+    padding: 40px 0;
+}
+
+.about-content
+{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-text
+{
+    width:70%;
+}
+.about-text h2
+{
+    font-size: 28px;
+    color: #252B33;
+}
+.about-text span
+{
+    color: #20c997;
+    font-weight: 600;
+}
+.about-text p
+{
+    Line-height: 28.8px;
+    color: #4C4D4D;
+    padding-top: 20px ;
+}
+.about-data
+{
+    width:30%;
+    padding-left:40px;
+}
+.about-data li
+{
+    color: #4C4D4D;
+    font-weight: 600;
+    border-bottom: 1px rgba(76, 77, 77,0.2) solid;
+    padding: 10px 0px;
+}
+.about-data li span
+{
+    font-weight: 400;
+    padding-left: 10px;
+}
+.oliv-mail a
+{
+    color: #20c997;
+    transition: all 0.3s ease-in-out;
+}
+.oliv-mail a:hover
+{
+    color: #1BAA80;
+}
+.li-ex li
+{
+    border:none;
+}
+.about-data button
+{
+    font-size: 16px;
+    border: 2px solid  #20c997;
+    background-color: #20c997 ;
+    border-radius: 800px;
+    padding:13px 42px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.about-data button a
+{
+    color: #fff;
+    
+}
+.about-data button:hover
+{
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
+    background-color: #1BAA80;
+    border-color: #1BAA80;
+}
+.about-facts
+{
+    padding: 15px 0;
+    display: flex;
+    justify-content:space-between ;
+}
+.cont-box
+{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #e0dede;
+}
+.cont-box:last-child
+{
+    border: none;
+}
+.cont-box  h4
+{
+    color:#6C757D;
+    font-size: 48px;
+    font-weight: 500;
+}
+.cont-box p 
+{
+    color: #4C4D4D;
+}
+/**************************************** End about section *******************/
+
+
+/**************************************** start services section *******************/
+
+#services
+{
+    padding: 40px 0;
+    background-color:#F8F9FA;
+}
+.services-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 55px;
+}
+.service1 i
+{
+    font-size: 30px;
+    margin:10px 20px;
+    color: #20c997;
+    border: 20px solid #fff;
+    background-color: #FFF;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 5%);
+}
+.service1
+{
+    display: flex;
+    padding-top:30px;
+    width:50%;
+}
+.service1 h3
+{
+    color: #252B33;
+    Font-size: 20px;
+    font-weight: 500;
+}
+.service1 p
+{
+    color: #4C4D4D;
+    padding-top: 10px;
+    Line-height: 28.8px
+}
+/**************************************** end services section *******************/
+
+/**************************************** start summary section *******************/
+#summary
+{
+    padding: 40px 0;
+}
+.summary-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.summary-info
+{
+    width: 50%;
+    padding: 0px 24px;
+}
+.summary-info h2
+{
+    font-size: 24px;
+    font-weight: 600;
+    color: #252B33;
+}
+.summary1
+{
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin: 20px  0px;  
+}
+.summary1 p
+{
+    color: #4C4D4D;
+    padding: 5px 20px 20px 20px;
+}
+.summary-date p
+{
+    display: inline-block;
+    color: #FFF;
+    font-size: 14px;
+    background-color: #20c997;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+.summary1 h3
+{   
+    font-size: 21px;
+    font-weight: 500;
+    color: #212529;
+    padding: 15px 20px 0px 20px;
+}
+.summary-uni p
+{
+    color:#DC3545;
+    padding: 5px 20px 15px;
+}
+.summary-mainskills
+{
+    margin-top: 30px;
+}
+.summary-mainskills h2
+{
+    font-weight: 600;
+    color: #252B33;
+    padding-left: 22px;
+}
+.summary-btn
+{
+    margin: auto;
+    padding: 50px 0;
+}
+.summary-btn button
+{   
+    padding: 13px 42px;
+    background-color: transparent;
+    border: 2px solid #6c757d;
+    border-radius:800px ;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    position: relative;
+}
+.summary-btn button a
+{
+    color: #6C757D;
+    font-size: 16px;
+    font-weight: 500;
+}
+.summary-btn button a i
+{
+    padding-left: 10px;
+}
+.summary-btn button:hover
+{
+    background-color: #6c757d;
+}
+.summary-btn button:hover i ,.summary-btn button:hover  a
+{
+    color: #fff;
+}
+.summary-skills
+{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.sum-sk
+{
+    width: 50%;
+    padding: 0 24px;
+}
+.skills-caption
+{
+    display: flex;
+    justify-content: space-between;
+}
+.skills-caption p
+{
+    color: #212529;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.progress-main-bar
+{
+    background-color: #e9ecef;
+    height:8px;
+    border-radius: 4px;
+    margin:10px 0 24px 0 ;
+}
+.pro-bar,.pro-bar1,.pro-bar2,.pro-bar3,.pro-bar4,.pro-bar5
+{   
+    background-color: #20c997;
+    height:8px;
+    border-radius: 4px;
+}
+.pro-bar
+{
+    width:65%
+}
+.pro-bar1
+{
+    width: 95%;
+}
+.pro-bar2
+{
+    width: 80%;
+}
+.pro-bar3
+{
+    width: 70%;
+}
+.pro-bar4
+{
+    width: 60%;
+}
+.pro-bar5
+{
+    width: 99%;
+}
+/**************************************** End summary section *******************/
+
+/**************************************** start portfolio section *******************/
+#portfolio
+{
+    padding: 40px 0;
+    background-color:#F8F9FA;
+}
+.port-caption
+{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+.port-caption a
+{
+    color: #6C757D;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    padding: 0 20px;
+}
+.port-caption a span
+{
+    color: #20c997;
+    border-bottom: 2px solid #20c997;
+}
+.port-caption a:hover
+{
+    color: #20c997;
+}
+.port-main
+{
+    display: flex;
+    padding: 20px 0;
+}
+.port-media
+{
+    width: 33.3333%;   
+}
+.port-box
+{
+   padding:12px;
+   overflow: hidden;
+}
+.overlay-box
+{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+    
+.overlay-box img
+{
+    width: 100%;
+    transition: all 0.3s ease 0s;
+}
+ .port-overlay
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.25rem;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease 0s;
+} 
+.overlay-box:hover .port-overlay
+{
+    visibility: visible;
+    opacity: 1; 
+}
+.overlay-box:hover img
+{
+    transform: scale(1.05,1.05);
+    filter: blur(2px)
+}
+.overlay-caption h5
+{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+.overlay-caption span
+{
+    color:#dee3e4;
+}
+/**************************************** End portfolio section *******************/
+
+
+/**************************************** start testimonial section *******************/
+
+#testimonial
+{
+    padding: 40px 0;
+}
+.testimo-main
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.testimo-media
+{
+    width: 50%;
+    background-color:#F8F9FA;
+    border-radius: 5px;
+    margin-left:30px ;
+}
+.testimo-main-caption
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.testimo-main-caption p
+{
+    
+    color: #212529;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.testimo-main-caption img
+{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.testimo-main-caption span
+{
+    display: block;
+    color:#6C757D;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.testimo-loc-name
+{
+    margin:40px 0 0 10px;
+}
+ .testimo-main-caption ul li
+{
+    display: inline-block;
+    color: #FFC107;
+    font-size: 14px;
+    padding:30px 0 ;
+} 
+/**************************************** start testimonial section *******************/
+
+
+/**************************************** start contact section *******************/
+#contact
+{
+    padding: 40px 0;
+    background-color:#F8F9FA;
+}
+.contact-media
+{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-info
+{
+    width: 30%;
+}
+.contact-info h2 , .contact-form h2
+{
+    color: #252B33;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.contact-info p
+{
+    Line-height: 29px;
+    color: #4C4D4D;
+}
+.contact-num
+{
+    padding-top: 20px;
+}
+.contact-num p
+{
+    padding: 5px 0;
+}
+.contact-num a
+{
+    color: #4C4D4D;
+}
+.contact-num i
+{
+    color: #20c997;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.contact-form
+{
+    width: 70%;
+}
+
+.contact-input
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.cont-input
+{
+    color: #212529;
+    padding: 13px 16px; 
+    font-size: 16px;
+    width: 49%;
+    border: 1px solid #dae1e3;
+    outline:1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out ;
+}
+.cont-input:focus
+{
+    outline:1px solid #8FBBFB;
+    box-shadow: 0 0 3px #8FBBFB;
+}
+.cont-input::placeholder
+{
+    color: #b1b4b6;
+}
+
+.contact-form button
+{
+    display: block;
+    font-size: 16px;
+    border: 2px solid  #20c997;
+    background-color: #20c997 ;
+    color: #FFF;
+    border-radius: 800px;
+    padding:13px 42px;
+    margin: auto;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.contact-form button:hover
+{
+    background-color: #1BAA80 ;
+    border-color:#1BAA80 ;
+}
+
+.cont-textarea
+{
+    width: 100%;
+    margin-top: 20px;
+}
+/**************************************** end contact section *******************/
+#footer
+{
+    padding: 40px 0;
+}
+.container6
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 35px 0;
+}
+.fot a
+{
+    color: #20c997;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+} 
+.fot a:hover
+{
+    color: #1BAA80;
+}
+.fot1 ul
+{
+    display: flex;
+}
+.fot1 li a
+{
+    color: #212529;
+    transition: all 0.3s ease-in-out;
+   
+}
+.fot1 li:first-child
+{
+    padding:8px 16px 8px 0;
+    position: relative;
+}
+.fot1 ul li:last-child
+{
+    padding:8px 0 8px 16px;
+}
+
+.fot1 li a:hover
+{
+    color: #20c997;
+}
+.fot1 ul li:first-child::after
+{
+    content: "";
+    position: absolute;
+    background-color: #ccc;
+    left:100%;
+    top:50%;
+    transform: translatey(-7px);
+    width: 1px;
+    height: 14px;
+}
+.scroll-up
+{
+    position: fixed;
+    right: 10px;
+    bottom:8px;
+    height: 36px;
+    width:36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.scroll-up a 
+{
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-up:hover
+{
+    background-color: #20c997;
+}
